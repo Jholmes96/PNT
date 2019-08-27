@@ -1,0 +1,27 @@
+package quizes;
+
+import java.util.Scanner;
+
+public class Exam1 {
+    public static void main(String[] args) {
+
+        String name;
+        int math, english, science, history;
+
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Name: ");
+        name= in.nextLine();
+
+        System.out.println("Marks for classes");
+        math = in.nextLine();
+        english = in.nextLine();
+        science = in.nextLine();
+        history = in.nextLine();
+
+        int total = math+english+science+history;
+        float perc = (float)total/400*100;
+
+    }
+}
