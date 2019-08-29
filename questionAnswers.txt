@@ -1,0 +1,41 @@
+What is compile time and run time?
+Compile time refers to time where the code is entered and is being changed into executable code. Whereas run time refers to when the executable code is already running
+
+What is heap?
+Runtime data where all memeroy and arrays from classes are stored
+
+How java manage it's memory?
+Java manages its memore through the JVM using heap memory, non-heap memory, and other memory where the JVM code is saved.
+
+What is the difference between String, StringBuffer and StringBuilder?
+String is immutable whereas StringBuffer and StringBuilder are mutable classes.  StringBuffer is also faster than StringBuilder because it is thread safe and synched.
+
+What is Singleton class?
+A class that can only have one object at a time per JVM instance.
+
+What is Serialization and Deserialization?
+Serialization is the process of turning an object into a byte stream whereas deserialization does the opposite and the byte stream is used to recreate the object in the java memory
+
+Which one will take more memory, an int or Integer?
+Integer takes more memory becuase it is a wrapper class but int is a type of primitive data
+
+Why is String Immutable in Java?
+String is immutable to make it easier to spread objects around easier across different threads
+
+What is constructor chaining in Java?
+The process of calling one constructor from another.
+
+The difference between Serial and Parallel Garbage Collector?
+While they both freeze all application threads while perfoming garbage collection. Serial only uses a single thread for garbage collection, Parallel uses multiple threads.
+
+What is JIT stands for?
+Just in time, which is a type of compiler
+
+Explain Java Heap space and Garbage collection?
+Java Heap collects all the memory while the JVM starts up and runs and when it becomes full the garbage is collected. When this happens objects that are no longer used are cleared to make new space. 
+
+Can you guarantee the garbage collection process?
+It can't be guaranteed because it is up to the JVM to initiate it when it needs the extra space from its heap memory.
+
+What is the difference between stack and heap in Java?
+Stack is used to store local variables and heap is used to store objects in Java.
